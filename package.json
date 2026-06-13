@@ -1,0 +1,22 @@
+{
+  "name": "ilp-",
+  "version": "1.0.0",
+  "description": "A minimal, functional proof-of-concept implementing the complete **10-step Open Payments flow** for accepting a one-time payment — as described in the official guide:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@interledger/open-payments": "^7.4.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
