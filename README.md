@@ -12,16 +12,16 @@ This script simulates what happens when a learner presses "Play" on a pay-per-se
 
 | Step | Action | API |
 |------|--------|-----|
-| 1 | **Wallet Discovery** — fetch wallet address info for both creator and learner | `GET /wallet-address` |
-| 2 | **Incoming Payment Grant** — get token to create incoming payment on creator's wallet | `POST /grant` (creator auth) |
-| 3 | **Create Incoming Payment** — define how much the creator expects to receive | `POST /incoming-payments` |
-| 4 | **Quote Grant** — get token to create a quote on learner's wallet | `POST /grant` (learner auth) |
-| 5 | **Create Quote** — calculate exact debit amounts | `POST /quotes` |
-| 6 | **Interactive Outgoing Payment Grant** — initiate GNAP auth flow requiring learner consent | `POST /grant` (interactive) |
-| 7 | **Redirect Learner** — open the `interact.redirect` URL in a browser | User interaction |
-| 8 | **Grant Continuation** — exchange `interact_ref` for a final access token | `POST /continue` |
-| 9 | **Stream Simulation** — simulate video playback, accumulating cost per second | Simulation |
-| 10 | **Execute Payment** — create the outgoing payment, triggering the ILP transfer | `POST /outgoing-payments` |
+| 1 | **Wallet Discovery** - fetch wallet address info for both creator and learner | `GET /wallet-address` |
+| 2 | **Incoming Payment Grant** - get token to create incoming payment on creator's wallet | `POST /grant` (creator auth) |
+| 3 | **Create Incoming Payment** - define how much the creator expects to receive | `POST /incoming-payments` |
+| 4 | **Quote Grant** - get token to create a quote on learner's wallet | `POST /grant` (learner auth) |
+| 5 | **Create Quote** - calculate exact debit amounts | `POST /quotes` |
+| 6 | **Interactive Outgoing Payment Grant** - initiate GNAP auth flow requiring learner consent | `POST /grant` (interactive) |
+| 7 | **Redirect Learner** - open the `interact.redirect` URL in a browser | User interaction |
+| 8 | **Grant Continuation** - exchange `interact_ref` for a final access token | `POST /continue` |
+| 9 | **Stream Simulation**- simulate video playback, accumulating cost per second | Simulation |
+| 10 | **Execute Payment** - create the outgoing payment, triggering the ILP transfer | `POST /outgoing-payments` |
 
 ---
 
