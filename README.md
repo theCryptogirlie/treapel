@@ -119,15 +119,15 @@ open-payments-prototype/
 
 ## Key Concepts
 
-**GNAP (Grant Negotiation and Authorization Protocol)** — The auth mechanism used by Open Payments. Unlike OAuth 2.0, GNAP supports interactive grants that require explicit user consent.
+**GNAP (Grant Negotiation and Authorization Protocol)** - The auth mechanism used by Open Payments. Unlike OAuth 2.0, GNAP supports interactive grants that require explicit user consent.
 
-**Wallet Address** — A URL (like `https://ilp.interledger-test.dev/username`) that acts as a payment pointer and discovery endpoint.
+**Wallet Address** - A URL (like `https://ilp.interledger-test.dev/username`) that acts as a payment pointer and discovery endpoint.
 
-**Incoming Payment** — A resource created on the receiver's wallet defining the amount they expect to receive.
+**Incoming Payment** - A resource created on the receiver's wallet defining the amount they expect to receive.
 
-**Quote** — Calculated on the sender's wallet; confirms the exact debit/receive amounts.
+**Quote** - Calculated on the sender's wallet; confirms the exact debit/receive amounts.
 
-**Outgoing Payment** — The final resource that actually moves money via ILP when created.
+**Outgoing Payment** - The final resource that actually moves money via ILP when created.
 
 ---
 
